@@ -1,6 +1,4 @@
 # Chenobyl Odyssey
-Made by Michaela Markova 2022
-
 This repository contains just the source code mostly for presentation purposes. I have separate repo with the whole project, but I cannot have it 
 as a public repo due to licences of third party assets in the game. The code documentation is currently residing [here](http://www.ms.mff.cuni.cz/~MARKOMI1/). 
 
