@@ -17,7 +17,7 @@ the players od stealth games as well as Chernobyl fans.
 
 # Architecture
 Here I will go over the most important parts (game objects) of the game and which scripts it uses, to make it easier for orientation. 
-For further information see documentation of the mentioned classes. 
+For further information see [documentation](http://www.ms.mff.cuni.cz/~MARKOMI1/) of the mentioned classes. 
 
 ## Player
 Consists of several scripts. PlayerControl is for moving player around, it uses new unity input system. Health script manages players health. 
