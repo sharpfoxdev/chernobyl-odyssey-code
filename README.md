@@ -6,7 +6,7 @@ as a public repo due to licences of third party assets in the game. The code doc
 
 This is a stealth side scroller game located in Chernobyl, following a story of guy, who had to evacuate from Pripyat, 
 leaving his dog behind. And now he is returning back there to see, what happened to his dog there. It is targeted to
-the players od stealth games as well as chernobyl fans. 
+the players od stealth games as well as Chernobyl fans. 
 
 # Unity version
 2021.3.5f1
