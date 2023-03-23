@@ -2,9 +2,9 @@
 Made by Michaela Markova 2022
 
 This repository contains just the source code mostly for presentation purposes. I have separate repo with the whole project, but I cannot have it 
-as a public repo due to licences of third party assets in the game. The documentation is currently residing [here](http://www.ms.mff.cuni.cz/~MARKOMI1/)
+as a public repo due to licences of third party assets in the game. The code documentation is currently residing [here](http://www.ms.mff.cuni.cz/~MARKOMI1/). 
 
-It is a stealth side scroller located in Chernobyl, following a story of guy, who had to evacuate from Pripyat, 
+This is a stealth side scroller game located in Chernobyl, following a story of guy, who had to evacuate from Pripyat, 
 leaving his dog behind. And now he is returning back there to see, what happened to his dog there. It is targeted to
 the players od stealth games as well as chernobyl fans. 
 
@@ -24,7 +24,7 @@ Consists of several scripts. PlayerControl is for moving player around, it uses 
 MeleeAttack script is used for dealing damage to enemies. Player script handles player dying and respawning. 
 ## Enemy
 Most complex entity in the game. It has Health script for handling it's health, and PlayerDetection script, that checks, whether enemy can 
-see player. Player can either be OutOfReach, Visible or CloseProximity. Then there is enemy AI, which is implemented as finite state machine. 
+see player. Player can either be OutOfReach, Visible or CloseProximity. Then there is enemy AI, which is implemented as finite state machine using State design pattern. 
 The context class is Enemy and individual state classes are EnemyPatrolPath, EnemyCombat, EnemySearchPlayer and EnemyFollowPlayer. The changes
 between states are triggered by changes of player visibility in most cases. EnemyPatrolPath makes enemy follow predefined patrol path. EnemyCombat
 shoots at the player, if he gets too close. EnemySearchPlayer goes to the spot, where the player was last seen and then looks around. EnemyFollowPlayer
